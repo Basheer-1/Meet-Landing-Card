@@ -92,10 +92,14 @@ span {
 }
 
 footer {
-    background-color: #4D96A9;
     text-align: center;
     color: white;
+    background-image: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url(mobile/image-footer.jpg);
+    background-size: cover;
+    background-blend-mode:normal;
+    
 }
+
 
 footer h3{
     font-size: 40px;
@@ -183,5 +187,6 @@ footer button {
         gap: 50px;
         height: 300px;
         text-align: center;
+        background-image: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url(desktop/image-footer.jpg);
     }
 }
